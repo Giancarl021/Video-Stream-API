@@ -1,0 +1,27 @@
+{
+  "name": "video-stream-api",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "An exercise project to create a video streaming API using Node.js and Express.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx --watch server.ts",
+    "build": "tsc",
+    "start": "node .",
+    "format": "prettier -w ."
+  },
+  "keywords": [
+    "video",
+    "stream",
+    "api"
+  ],
+  "author": "Giancarlo Fontela da Luz <gian.f.luz@hotmail.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.18.0",
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
